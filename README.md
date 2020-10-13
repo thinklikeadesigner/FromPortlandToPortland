@@ -1,6 +1,6 @@
 # Project 3: From Portland to Portland
 
-## Live site can be found on https://thinklikeadesigner.github.io/web_project_3/
+## Live site can be found on https://thinklikeadesigner.github.io/FromPortlandToPortland/
 
 ### Overview
 * Project description
