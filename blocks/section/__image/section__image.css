@@ -1,0 +1,17 @@
+.section__image {
+  margin: 0 0 32px;
+  padding: 0;
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 530px) {
+  .section__image {
+    display: grid;
+    grid-area: image;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+  }
+}

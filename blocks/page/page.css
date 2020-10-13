@@ -1,0 +1,14 @@
+@import url('./__container/page__container.css');
+
+.page {
+  padding: 0;
+  background-color: #2A2C2F;
+  color: white;
+  margin: 0;
+  font-family: 'Inter';
+  overflow: hidden;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+

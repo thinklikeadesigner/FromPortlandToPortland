@@ -1,0 +1,35 @@
+
+ .two-columns {
+   display: flex;
+   margin: 48px 0;
+   flex-direction: column;
+
+ }
+
+ @media screen and (min-width:530px) {
+   .two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     grid-template-rows: auto;
+     column-gap: 28px;
+     row-gap: 48px;
+     margin: 72px 24px;
+     grid-template-areas: 
+     "title web"
+     "image paragraph";  
+   }
+ }
+
+ @media screen and (min-width:900px) {
+   .two-columns {
+     column-gap: 32px;
+     margin: 80px 48px;
+   }
+ }
+
+ @media screen and (min-width:1140px) {
+   .two-columns {
+     column-gap: 40px;
+     margin: 80px 148px;
+   }
+ }

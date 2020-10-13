@@ -1,0 +1,12 @@
+.section__websites {
+  display: none;
+}
+
+@media screen and (min-width: 530px) {
+  .section__websites {
+    display: grid;
+    grid-area: web;
+    align-self: self-end;
+    width: 100%;
+  }
+}

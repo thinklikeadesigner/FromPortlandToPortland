@@ -1,0 +1,27 @@
+@import url('./__link/cover__link.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__title/cover__title.css');
+
+.cover {
+  margin: 64px 0 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 530px) {
+  .cover {
+    padding: 0;
+    margin: 88px 0 0;
+  }
+}
+@media screen and (min-width: 900px) {
+  .cover {
+    margin: 92px 0 0;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .cover {
+    padding: 0;
+    margin: 92px 48px 0;
+  }
+}
